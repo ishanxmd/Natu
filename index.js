@@ -334,7 +334,7 @@ conn.ev.on('messages.upsert', async (mek) => {
         }}}
 
     
-const bad = await fetchJson(`https://raw.githubusercontent.com/sulaksha49/PUKA_DA_BALANNE/refs/heads/main/ai_ballo_horen_balanne/bad_word.json`)
+const bad = await fetchJson(`https://github.com/ishanxmd/Data/blob/main/details.json`)
 if (config.ANTI_BAD == "true"){
   if (!isAdmins && !isMe) {
   for (any in bad){
