@@ -30,20 +30,20 @@ async(conn, mek, m, {from, reply}) => {
                 ],
                 headerType: 1,
                 viewOnce: true,
-                image: {url: "https://i.ibb.co/wsRfxsf/IMG-20241220-WA0008.jpg" },
+                image: {url: "https://files.catbox.moe/h1xuqv.jpg" },
                 caption: aliveMessage,
                 contextInfo: {
                     isForwarded: true,
                     mentionedJid: [m.sender],
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: "120363322195409882@newsletter",
+                        newsletterJid: "120363421448551991@newsletter",
                         newsletterName: "Queen Nethu MD V2"
                     }
                 }
             }, {quoted: mek})
         } else {
             await conn.sendMessage(from, {
-                image: {url: "https://i.ibb.co/wsRfxsf/IMG-20241220-WA0008.jpg" },
+                image: {url: "https://files.catbox.moe/h1xuqv.jpg" },
                 caption: aliveMessage
             }, {quoted: mek})
         }
