@@ -35,7 +35,7 @@ const Crypto = require('crypto')
 const path = require('path')
 const prefix = '.'
 
-const ownerNumber = ['94787072548']
+const ownerNumber = ['94761638379']
 
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
@@ -105,7 +105,7 @@ let up = `*Connected Successfull \`QUEEN NETHU MD\` Multidevice Whatsapp Bot ✅
 │ 
 │
 │*\`Contact\`*
-│ wa.me/94704227534
+│ wa.me/94761638379
 ╰──────────────╯
 
 ⦁⦂⦁━┉━┉━┉━┉━┉━┉━┉━⦁⦂⦁
