@@ -115,7 +115,7 @@ let up = `*Connected Successfull \`QUEEN NETHU MD\` Multidevice Whatsapp Bot ✅
  *㋛ 𝙿𝙾𝚆𝙴𝚁𝙳 𝙱𝚈 𝚂𝙻 𝙽𝙴𝚃𝙷𝚄 𝙼𝙳  〽️Ｄ*`;
 
 
-conn.sendMessage(conn.user.id,{ image: { url: `https://i.ibb.co/0R73PZb5/SulaMd.jpg` }, caption: up })
+conn.sendMessage(conn.user.id,{ image: { url: `https://files.catbox.moe/h1xuqv.jpg` }, caption: up })
 
 }
 })
