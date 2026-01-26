@@ -27,7 +27,7 @@ async (conn, mek, m, { from, quoted, pushname, reply }) => {
         else if (host.length === 36) host = 'heroku';
         else if (host.length === 8) host = 'koyeb';
 
-        const ownerdata = (await axios.get('https://github.com/ishanxmd/Data/blob/main/details.json')).data;
+        const ownerdata = (await axios.get('https://raw.githubusercontent.com/ishanxmd/Data/refs/heads/main/details.json')).data;
         const ALIVE_MSG = ownerdata.alivemsg;
         const FOOTER = ownerdata.footer;
         const IMAGE_URL = ownerdata.imageurl;
@@ -195,7 +195,7 @@ async (conn, mek, m, { from, quoted, pushname, reply }) => {
     }
   }
 };
-        const ownerdata = (await axios.get('https://github.com/ishanxmd/Data/blob/main/details.json')).data;
+        const ownerdata = (await axios.get('https://raw.githubusercontent.com/ishanxmd/Data/refs/heads/main/details.json')).data;
         const FOOTER = ownerdata.footer;
         const IMAGE_URL = ownerdata.imageurl;
         const OWNER_NUMBER = ownerdata.ownernumber;
@@ -256,7 +256,7 @@ async (conn, mek, m, { from, quoted, pushname, reply }) => {
         else if (host.length === 36) host = 'heroku';
         else if (host.length === 8) host = 'koyeb';
 
-        const ownerdata = (await axios.get('https://github.com/ishanxmd/Data/blob/main/details.json')).data;
+        const ownerdata = (await axios.get('https://raw.githubusercontent.com/ishanxmd/Data/refs/heads/main/details.json')).data;
         const FOOTER = ownerdata.footer;
         const IMAGE_URL = ownerdata.imageurl;
         const VERSION = ownerdata.version;
@@ -401,7 +401,7 @@ async (conn, mek, m, { from, quoted, pushname, reply }) => {
         else if (host.length === 36) host = 'heroku';
         else if (host.length === 8) host = 'koyeb';
         
-        const ownerdata = (await axios.get('https://github.com/ishanxmd/Data/blob/main/details.json')).data;
+        const ownerdata = (await axios.get('https://raw.githubusercontent.com/ishanxmd/Data/refs/heads/main/details.json')).data;
         const OWNER_NUMBER = ownerdata.ownernumber;
         const FOOTER = ownerdata.footer;
         const IMAGE_URL = ownerdata.imageurl;
