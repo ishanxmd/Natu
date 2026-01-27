@@ -192,4 +192,4 @@ setInterval(() => {
   for (const s in pendingQuality) if (now - pendingQuality[s].timestamp > timeout) delete pendingQuality[s];
 }, 5*60*1000);
 
-module.exports = { pendingSearch, pendingQuality
+module.exports = { pendingSearch, pendingQuality };
